@@ -131,3 +131,7 @@ Write the code to create a component called `Greeting`, it should:
 Copy the `Greeting` component you created in the previous question. Pass the `name` prop to your component with any string value you like
 
 You will nest your `Greeting` component inside the provided `App` component
+
+### 12. Bain Hollister
+
+Name something you took away from Bain's chat this morning.

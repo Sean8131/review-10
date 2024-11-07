@@ -92,3 +92,7 @@ const App = () => {
   // Add your Greeting component here
 };
 ```
+
+## Answer 12 Bain's talk
+
+
