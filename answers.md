@@ -3,19 +3,29 @@
 ## Answer 1 Create a Simple Component
 
 ```js
-// Write your code here
+const Welcome = <h1>Welcome to React!</h1>
 ```
 
 ## Answer 2 Create a Bigger Component
 
 ```js
-// Write your code here
+const HelloWorld = <p>Hello</p><p>section</p><p>World</p>
 ```
 
 ## Answer 3 Create an Image Component
 
 ```js
-// Write your code here
+import React from 'react';
+import picture from '../assets/images/profile-picture.jpg';
+
+function ProfilePicture() {
+  return (
+    <img src={picture} alt='The users profile picture' />
+  );
+}
+
+export default ProfilePicture;
+
 ```
 
 ## Answer 4 Create a Component that Uses Variables
@@ -28,6 +38,10 @@ const age = "30";
 ```
 
 ## Answer 5 Is the Code Correct? Components
+
+It should return an h1 that says "Apples" and then a three numbered bullet points that each say "1. Green Apple"
+
+The code should render, but the list won't make much sense.
 
 ## Answer 6 Export a Component
 
@@ -48,31 +62,33 @@ const TableOfContents = () => {
       </ul>
     </div>
   );
+  export default TableOfContents;
 };
 ```
 
 ## Answer 7 Import a Component
 
 ```js
-// This is the Gallery.js file
-// Write your code here
+import React from 'react';
+import Profile from './Profile.js';
 ```
 
 ## Answer 8 Is the Code Correct? JSX
 
+It should return an h2 element that says "Shopping List", followed by a bullet point, and then three numbered bullet points that say "Apples" "Bananas" and "Oranges"
+
 ## Answer 9 Fix the JSX Bugs
 
 ```js
-// Modify the code below
 
-const Bio = () => {
+function Bio = () => {
   return (
-    <div class="intro">
+    <div className="intro">
       <h1>Welcome to my website!</h1>
     </div>
-    <p class="summary">
+    <p className="summary">
       You can find my thoughts here.
-      <br><br>
+      <br></br>
       <b>And <i>pictures</b></i> of scientists!
     </p>
   );
@@ -82,17 +98,36 @@ const Bio = () => {
 ## Answer 10 Create a Component with a Prop
 
 ```js
-// Write your code here
+import React from 'react';
+
+function Greeting(name) {
+  return (
+    <p>Hello {name}</p>
+  );
+}
+
+export default Greeting;
+
 ```
 
 ## Answer 11 Pass a Prop to a Component
 
 ```js
+import React from 'react';
+
 const App = () => {
-  // Add your Greeting component here
+
+function Greeting(name) {
+  return (
+    <p>Hello {name}</p>
+  );
+}
+
+export default Greeting;
 };
 ```
 
 ## Answer 12 Bain's talk
 
+In an interview (and life), it's important to have energy, be curious, and ask questions. 
 
